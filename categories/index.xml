@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on thoughts and progress</title>
+    <title>Categories on dubst3pp4</title>
     <link>https://dubst3pp4.github.io/categories/</link>
-    <description>Recent content in Categories on thoughts and progress</description>
+    <description>Recent content in Categories on dubst3pp4</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://dubst3pp4.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Website</title>
+      <link>https://dubst3pp4.github.io/categories/website/</link>
+      <pubDate>Wed, 27 Sep 2017 22:57:56 +0200</pubDate>
+      
+      <guid>https://dubst3pp4.github.io/categories/website/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
