@@ -2,6 +2,7 @@ baseURL = "https://dubst3pp4.github.io"
 languageCode = "en-us"
 title = "dubst3pp4"
 theme = "beautifulhugo"
+googleAnalytics = "UA-107193689-1"
 
 [Params]
   subtitle = "random bits"
