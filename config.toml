@@ -1,34 +1,24 @@
 baseURL = "https://dubst3pp4.github.io"
 languageCode = "en-us"
-title = "dubst3pp4"
 theme = "beautifulhugo"
-
-[Params]
-  subtitle = "random bits"
-  logo = "img/dubst3pp4-avatar.png"
-  dateFormat = "January 2, 2006"
-  rss = true
-  comments = true
-
+title = "dubst3pp4"
 [Author]
-  name = "Marc Hanisch"
-  #email = "youremail@domain.com"
-  googleplus = "+MarcHanisch" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "dubst3pp4"
-  twitter = "dubst3pp4"
-  reddit = "dubst3pp4"
-
+github = "dubst3pp4"
+googleplus = "+MarcHanisch"
+name = "Marc Hanisch"
+reddit = "dubst3pp4"
+twitter = "dubst3pp4"
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-#[[menu.main]]
-#    name = "About"
-#    url = "page/about/"
-#    weight = 3
-
+name = "Tags"
+url = "tags"
+weight = 3
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+name = "Blog"
+url = ""
+weight = 1
+[params]
+comments = true
+dateformat = "January 2, 2006"
+logo = "img/dubst3pp4-avatar.png"
+rss = true
+subtitle = "random bits"
