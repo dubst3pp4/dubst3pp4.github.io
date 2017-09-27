@@ -1,7 +1,7 @@
 baseURL = "https://dubst3pp4.github.io"
+googleAnalytics = "UA-107193689-1"
 languageCode = "en-us"
 theme = "beautifulhugo"
-googleAnalytics = "UA-107193689-1"
 title = "dubst3pp4"
 [Author]
 github = "dubst3pp4"
