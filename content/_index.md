@@ -1,3 +1,2 @@
-### Hello ~ Bonvenon
-Random thoughts about programming languages, OpenSource, Esperanto.\
-Pensaĝoj pri programlingvoj, libera programaro, Esperanto.
+**en** ~ random thoughts about programming languages, OpenSource, Esperanto.\
+**eo** ~ pensaĝoj pri programlingvoj, libera programaro, Esperanto.

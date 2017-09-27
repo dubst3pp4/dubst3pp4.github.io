@@ -1,6 +1,8 @@
 ---
 title: "Hugo, GitHub and forestry.io"
 date: 2017-09-27T22:57:56+02:00
+tags: ['Hugo']
+categories: ['website']
 draft: false
 ---
 
