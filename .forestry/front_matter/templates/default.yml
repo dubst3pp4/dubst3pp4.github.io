@@ -6,6 +6,10 @@ fields:
 - type: text
   label: Title
   name: title
+- type: textarea
+  name: description
+  label: Description
+  description: A short description of the content
 - type: datetime
   name: date
   label: Date
