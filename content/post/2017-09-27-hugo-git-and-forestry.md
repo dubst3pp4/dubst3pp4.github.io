@@ -7,6 +7,7 @@ tags:
 - Forestry
 - Github
 title: Hugo, GitHub and forestry.io
+draft: true
 
 ---
 
@@ -31,4 +32,4 @@ But why [GitHub](https://github.com)? One reason is that I'm using GitHub as a r
 
 This sites source is stored for example in the [src](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/src?files=1) branch of my repository, while the site is generated into the [master](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/master?files=1) branch.
 
-As easy as that, isn't it?! ;-)
+As easy as that!
