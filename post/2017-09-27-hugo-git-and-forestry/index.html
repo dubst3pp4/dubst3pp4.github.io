@@ -8,14 +8,15 @@
   <title>Hugo, GitHub and forestry.io</title>
   <meta property="og:title" content="Hugo, GitHub and forestry.io" />
   <meta name="twitter:title" content="Hugo, GitHub and forestry.io" />
-  <meta name="description" content="To set up my personal Github pages, I decided to use a static site stack.
-The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.
-You simply put your content as Markdown files into a tree structure, which represents your site structure and the static site generator turns it into a bunch of HTML files which you can upload to your server.">
-  <meta property="og:description" content="To set up my personal Github pages, I decided to use a static site stack.
-The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.
-You simply put your content as Markdown files into a tree structure, which represents your site structure and the static site generator turns it into a bunch of HTML files which you can upload to your server.">
-  <meta name="twitter:description" content="To set up my personal Github pages, I decided to use a static site stack.
-The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. …">
+  <meta name="description" content="To set up my personal Github pages, I decided to use a static site stack (sometimes called the JAMStack).
+
+The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to build a whole site of only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.">
+  <meta property="og:description" content="To set up my personal Github pages, I decided to use a static site stack (sometimes called the JAMStack).
+
+The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to build a whole site of only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.">
+  <meta name="twitter:description" content="To set up my personal Github pages, I decided to use a static site stack (sometimes called the JAMStack).
+
+The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to build a whole …">
   <meta name="author" content="Marc Hanisch"/>
   <meta property="og:image" content="https://dubst3pp4.github.io/img/dubst3pp4-avatar.png" />
   <meta name="twitter:image" content="https://dubst3pp4.github.io/img/dubst3pp4-avatar.png" />
@@ -189,28 +190,29 @@ ga('send', 'pageview');
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>To set up my personal Github pages, I decided to use a static site stack.</p>
+        <p>To set up my personal Github pages, I decided to use a static site stack (sometimes called <a href="https://jamstack.org/best-practices">the JAMStack</a>).</p>
 
-<p>The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.</p>
+<p>The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to build a whole site of only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.</p>
 
 <p>You simply put your content as Markdown files into a tree structure, which represents your site structure and the static site generator turns it into a bunch of HTML files which you can upload to your server.</p>
 
-<p>For the generation of the site I&rsquo;m using <a href="https://gohugo.io">HUGO</a>, a site generator which is written in Go and is available for Linux, Windows and MacOS.</p>
+<p>For the generation of the site I&rsquo;m using <a href="https://gohugo.io">Hugo</a>, a site generator which is written in Go and is available for Linux, Windows and MacOS.</p>
 
-<p>Hugo allows you to setup a complete website just with some commands, a little configuration file and your content files written in Markdown. Although it has an extensive documentation, it is sometimes hard to find the information you are looking for due to the huge amount of things you can use Hugo for.</p>
+<p>Hugo allows you to setup a complete website just with some commands, a little configuration file and your content files written in Markdown. Although it has an extensive documentation, it is sometimes hard to find the information you are looking for due to the huge amount of possibilities on how to use Hugo.</p>
 
-<p>The benefit of using a site generator is, that you can work with your familar Git workflow. Whether your trying out a new feature or whether you want to revert to an older state, Git allows you to do so!</p>
+<p>The benefit of using a site generator is, that you can work with your familar Git workflow. Whether you&rsquo;re trying out a new feature or whether you want to revert to an older state of the site, Git allows you to do so!</p>
 
-<p>Another great feature of using git is that it allows you to write your content offline. You can simply push your changes to the deployment environment when you&rsquo;re connected to the internet again.</p>
+<p>Another great feature of using Git is that it allows you to write your content offline. You can simply push your changes to the deployment environment when you&rsquo;re connected to the internet again.</p>
 
-<p><a href="https://forestry.io">forestry.io</a> sits on top of such a site generator like Hugo and provides a graphical user interface like a traditional CMS to you or even your team. Although you don&rsquo;t need a GUI to run Hugo, it is a very handy way to edit your content for example from your mobile phone (like I&rsquo;m doing now) as it features a content editor with WYSIWYG preview, a simplified process of publishing your changes and much more. In contrast to Hugo itself, which runs on your local development machine, forestry.io is a hosted service which is free for personal use.</p>
+<p><a href="https://forestry.io">forestry.io</a> sits on top of such a site generator like Hugo and provides to you or even your team a graphical user interface like a traditional CMS does. Although you don&rsquo;t need a GUI to run Hugo, it is a very handy way to edit your content for example from your mobile phone (like I&rsquo;m doing now) as it features a content editor with WYSIWYG preview, a simplified process of publishing your changes and much more. In contrast to Hugo itself, which runs on your local development machine, forestry.io is a hosted webservice which is free for personal use.</p>
 
-<p>But why <a href="https://github.com">GitHub</a>? One reason is that I&rsquo;m using GitHub as a remote repository for Hugos source files (the markdown and the configuration of this site). But with the help of forestry.io it is really easy to deploy the generated files directly to a branch which is connected to GitHub pages.</p>
+<p>But why <a href="https://github.com">GitHub</a>? One reason is that I&rsquo;m using GitHub as a remote repository for Hugos source files (the markdown and the configuration of this site). And with the help of forestry.io it is really easy to deploy the generated files directly to a branch, which in turn is connected to my GitHub page.</p>
 
-<p>This sites source is stored for example in the <a href="https://github.com/dubst3pp4/dubst3pp4.github.io/tree/src?files=1">src</a> branch of my repository, while the HTML files of my site are generated into the <a href="https://github.com/dubst3pp4/dubst3pp4.github.io/tree/master?files=1">master</a> branch.</p>
+<p>The source of this site for example is stored in the branch <a href="https://github.com/dubst3pp4/dubst3pp4.github.io/tree/src?files=1">src</a> of my repository, while the HTML files of my site are then generated into the <a href="https://github.com/dubst3pp4/dubst3pp4.github.io/tree/master?files=1">master</a> branch.</p>
 
-<p>As easy as that!</p>
+<p>After understanding how things work in this static site stack it feels very natural and I&rsquo;m wondering, why we were using server-side processing of static sites all the years.</p>
 
+<p>I can really recommend to have a look at <a href="https://gohugo.io">Hugo</a> or <a href="https://jekyllrb.com">jekyll</a>, which as written in Ruby. It may changes the way you think about static content creation.</p>
       </article>
 
       <ul class="pager blog-pager">
