@@ -16,11 +16,9 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-- type: field_group_list
-  config:
-    labelField: 
-  label: Keywords
+- type: field_group
   name: keywords
+  label: Keywords
   fields:
   - type: text
     name: keywords
