@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dubst3pp4.github.io/post/2017-09-27-hugo-git-and-forestry/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dubst3pp4.github.io/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
   </url>
   
   <url>
@@ -12,7 +18,38 @@
   </url>
   
   <url>
+    <loc>https://dubst3pp4.github.io/tags/forestry/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/tags/github/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/tags/hugo/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/post/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dubst3pp4.github.io/tags/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/categories/website/</loc>
+    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
