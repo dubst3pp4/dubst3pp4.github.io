@@ -9,6 +9,8 @@ tags:
 title: Hugo, GitHub and forestry.io
 
 ---
+
+
 To set up my personal Github pages, I decided to use a static site stack.
 
 The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.
@@ -27,6 +29,6 @@ Another great feature of using git is that it allows you to write your content o
 
 But why [GitHub](https://github.com)? One reason is that I'm using GitHub as a remote repository for Hugos source files (the markdown and the configuration of this site). But with the help of forestry.io it is really easy to deploy the generated files directly to a branch which is connected to GitHub pages.
 
-This sites source is stored for example in the [src](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/src?files=1) branch of my repository, while the site is generated into the [master](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/master?files=1) branch.
+This sites source is stored for example in the [src](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/src?files=1) branch of my repository, while the HTML files of my site are generated into the [master](https://github.com/dubst3pp4/dubst3pp4.github.io/tree/master?files=1) branch.
 
 As easy as that!
