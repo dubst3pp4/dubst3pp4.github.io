@@ -9,7 +9,7 @@ tags:
 title: Hugo, GitHub and forestry.io
 
 ---
-To set up my personal Github pages, I decided to use a static site stack (sometimes called [the JAMStack](https://jamstack.org/best-practices)).
+To set up my personal Github pages, I decided to use a static site stack - sometimes called the [JAMStack](https://jamstack.org/best-practices).
 
 The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to build a whole site of only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.<!--more-->
 
