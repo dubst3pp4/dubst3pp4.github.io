@@ -18,7 +18,7 @@ name = "Blog"
 url = ""
 weight = 1
 [params]
-comments = true
+comments = "true"
 dateformat = "January 2, 2006"
 logo = "img/dubst3pp4-avatar.png"
 rss = true
