@@ -1,13 +1,3 @@
 ---
-pages:
-- post/test.md
 hide_body: false
-fields:
-- name: date
-  label: Date
-  type: field_group
-  hidden: false
-  default: {}
-- type: field_group_list
-  label: Keywords
-  name: keywords
+fields: []
