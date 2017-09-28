@@ -9,8 +9,6 @@ tags:
 title: Hugo, GitHub and forestry.io
 
 ---
-
-
 To set up my personal Github pages, I decided to use a static site stack.
 
 The idea is, instead of using a huge and slow CMS like WordPress or Drupal, to simply upload only static HTML and asset files. Neither the dynamic, server side rendering of the pages, nor a database is required.
