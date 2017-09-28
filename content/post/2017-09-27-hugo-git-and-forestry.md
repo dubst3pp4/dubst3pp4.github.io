@@ -7,7 +7,6 @@ tags:
 - Forestry
 - Github
 title: Hugo, GitHub and forestry.io
-draft: true
 
 ---
 
