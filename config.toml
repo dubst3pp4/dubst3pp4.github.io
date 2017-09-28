@@ -11,11 +11,10 @@ reddit = "dubst3pp4"
 twitter = "dubst3pp4"
 [[menu.main]]
 name = "Tags"
-url = "tags"
-weight = 3
+url = "/tags"
+weight = 2
 [[menu.main]]
 name = "Blog"
-url = ""
 weight = 1
 [params]
 comments = true
