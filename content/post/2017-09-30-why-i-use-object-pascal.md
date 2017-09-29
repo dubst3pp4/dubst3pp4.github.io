@@ -1,9 +1,9 @@
 ---
-title: "Why I use Object Pascal"
+title: Why I use Object Pascal
 date: 2017-09-29 12:07:41 +0200
 draft: true
----
 
+---
 Pascal is one of the older programming languages that are used today. Older in this context means, that it was initially developed in 1969 by Dr. Niklaus Wirth on the ETH Zurich. Despite the fact, that it is older than 40(!) years, the language has greatly involved in the last decades. All of the features that are required by a modern programming language are supported by Pascal, too.<!--more-->
 
 Pascal was standardized as an ISO standard in the early 90s. Unlike other languages, there were different Pascal dialects and compilers since the beginning.[^1] Today there are two major implementations: **Delphi™** and **Free Pascal**.
