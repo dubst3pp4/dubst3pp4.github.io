@@ -1,6 +1,7 @@
 ---
 pages:
 - post/test.md
+- imprint.md
 hide_body: false
 fields:
 - type: text
