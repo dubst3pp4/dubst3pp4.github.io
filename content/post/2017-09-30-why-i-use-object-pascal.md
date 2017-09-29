@@ -1,6 +1,6 @@
 ---
 title: "Why I use Object Pascal"
-date: 2017-09-29T12:07:41+02:00
+date: 2017-09-29 12:07:41 +0200
 draft: true
 ---
 
