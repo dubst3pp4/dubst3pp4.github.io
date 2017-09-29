@@ -4,5 +4,6 @@ title = ""
 type = "page"
 
 +++
-**en** ~ random thoughts about programming languages, OpenSource, Esperanto.\
-**eo** ~ pensaĝoj pri programlingvoj, libera programaro, Esperanto.
+
+
+<span style="font-size: 1rem;">About programming languages, software development and Open Source software. Beside the mainstream. Ankaŭ kelkajn pensaĝojn en Esperanto.</span>
