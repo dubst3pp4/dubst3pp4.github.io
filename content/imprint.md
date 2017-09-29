@@ -1,8 +1,9 @@
 +++
-date = "2017-09-29T09:36:42+00:00"
+date = "2017-09-29T09:36:42Z"
 description = "Imprint of dubst3pp4.github.io"
 tags = []
 title = "Impressum"
+type = "page"
 [menu.main]
 name = "Imprint"
 weight = 3
