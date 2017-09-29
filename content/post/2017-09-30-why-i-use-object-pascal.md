@@ -16,24 +16,24 @@ Delphi™ is a Rapid Application Development (RAD) environment, which consists o
 
 But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?
 
-## Full support of OOP
+## Pascal has full support of OOP
 
 ## Pascal is modular
 
 Sourcecode can be organized in units, which are files with code inside, that has a common relation. You can define which parts of the unit are visible to others (`interface`), and which parts are not (`implementation`) and thus private to the unit. You can even define code, which gets executed when the unit is included into your program (`initialization`).
 
-## Type-focused
+## Pascal is type-focused
 
 Free Pascal is static-typed language, that means that you have to declare the types of all variables, parameters and functions in your source code. The compiler will raise an error if you're trying to pass incompatible types to a variable or parameter. The type-safety forces you to think about *how to structure your data*. With Free Pascal you can create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of types and you can even rename existing types.
 
 I don't want to start a debate about dynamically-types vs. static-typed languages – I use both of them. But what I really like about Pascal is that it is consequent and does't try to guess how to typecast one type into another one. In contrast, C and C++ for example are not that typesafe like Pascal is.
 
-## It is fast
+## Pascal is fast
 
-## It is verbose
+## Pascal is verbose
 
-## Good documentation
+## Pascal has good documentation
 
-## Community
+## Pascal has a great community
 
 [^1]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
