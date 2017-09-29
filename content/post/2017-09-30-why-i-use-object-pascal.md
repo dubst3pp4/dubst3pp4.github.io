@@ -26,7 +26,7 @@ Sourcecode can be organized in units, which are files with code inside, that has
 
 Free Pascal is static-typed language, that means that you have to declare the types of all variables, parameters and functions in your source code. The compiler will raise an error if you're trying to pass incompatible types to a variable or parameter. The type-safety forces you to think about *how to structure your data*. With Free Pascal you can create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of types and you can even rename existing types.
 
-I don't want to start a debate about dynamically-types vs. static-typed languages – I use both of them. But what I really like about Pascal is that it is consequent and does't try to guess how to typecast a type into another one. In contrast, C and C++ for example are not that typesafe like Pascal is.
+I don't want to start a debate about dynamically-types vs. static-typed languages – I use both of them. But what I really like about Pascal is that it is consequent and does't try to guess how to typecast one type into another one. In contrast, C and C++ for example are not that typesafe like Pascal is.
 
 ## It is fast
 
