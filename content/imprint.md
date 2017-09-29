@@ -5,7 +5,7 @@ tags = []
 title = "Impressum"
 [menu.main]
 name = "Imprint"
-weight = 1
+weight = 2
 
 +++
 ## Angaben gemäß § 5 TMG:
