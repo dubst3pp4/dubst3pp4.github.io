@@ -19,14 +19,10 @@ But beside this historical excursion, what are the reasons that I use Free Pasca
 ## Pascal has full support of OOP
 
 ## Pascal is modular
+Free Pascal supports programming in a modular way. That means, source code that has a common relation can be put into a separate file, which is called a `unit`. You can define which parts of this unit are visible to others, this is called the `interface` part of the unit, and which parts are not and thus are private to the unit - this is called the `implementation` part. You can even define code, which gets executed when the unit is included into your program, the `initialization` part of the unit.
 
-Sourcecode can be organized in units, which are files with code inside, that has a common relation. You can define which parts of the unit are visible to others (`interface`), and which parts are not (`implementation`) and thus private to the unit. You can even define code, which gets executed when the unit is included into your program (`initialization`).
-
-## Pascal is type-focused
-
-Free Pascal is static-typed language, that means that you have to declare the types of all variables, parameters and functions in your source code. The compiler will raise an error if you're trying to pass incompatible types to a variable or parameter. The type-safety forces you to think about *how to structure your data*. With Free Pascal you can create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of types and you can even rename existing types.
-
-I don't want to start a debate about dynamically-types vs. static-typed languages – I use both of them. But what I really like about Pascal is that it is consequent and does't try to guess how to typecast one type into another one. In contrast, C and C++ for example are not that typesafe like Pascal is.
+## Pascal focus on types
+Free Pascal is a compiled, statically-typed language, that requires, that you define the types of all variables, parameters and functions in your code. The compiler will raise an error when you're trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about *how to structure your data*. The language offers you many predefined types, but you can also create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of existing types or rename existing ones. You even have to differ between subroutines that return values and thus have side-effects, `functions`, and subroutines that does not return something, `procedures`.
 
 ## Pascal is fast
 
