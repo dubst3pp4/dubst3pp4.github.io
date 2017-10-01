@@ -18,13 +18,13 @@ But beside this historical excursion, what are the reasons that I use Free Pasca
 
 Pascal is a compiled, statically-typed language, which requires, that you define the types of all variables, parameters and functions in your code. The compiler will raise an error when you're trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about *how to structure your data*. The language offers you many predefined types, but you can also create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of existing types or rename existing ones. You even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*.  It is also possible to overload operators for your types, so you can define the result of the operation when you - for example - add two objects. To pass functions or procedures as data to your code, Free Pascal gives you the possibility to define *procedural types*.
 
-## Object Pascal has full support of OOP
+## Object Pascal has full support for OOP
 
 Object Pascal provides you all the tools you need for Object Oriented Programming (OOP). Although the language is not fully object oriented in that way like Smalltalk or Ruby, where even the most basic types like Integers or Booleans are instances of classes (objects), you will find all the concepts that define OOP: encapsulation, inheritance and polymorphism.
 
 You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way on how data is accessed by *properties*, which define which getter- or setter-method is used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the classes within your application. The base class of all these classes is `TObject`.
 
-Contracts between your data types and the client code can be defined by the concept of `interfaces`. There are build-in standard `exceptions`, but you can define your own exceptions, too.
+Contracts between your data types and the client code can be defined by the concept of *interfaces*. There are build-in standard *exceptions*, but you can define your own exceptions, too.
 
 ## Pascal is modular
 
