@@ -22,7 +22,7 @@ Pascal is a compiled, statically-typed language, which requires, that you define
 
 Object Pascal provides you all the tools you need for Object Oriented Programming (OOP). Although the language is not fully object oriented in that way like Smalltalk or Ruby, where even the most basic types like Integers or Booleans are instances of classes (objects), you will find all the concepts that define OOP: encapsulation, inheritance and polymorphism.
 
-You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way on how data is accessed by *properties*, which define which getter- or setter-method is used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the classes within your application. The base class of all these classes is `TObject`.
+You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way on how data is accessed by *properties*, which define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the classes within your application. The base class of all these classes is `TObject`.
 
 Contracts between your data types and the client code can be defined by the concept of *interfaces*. There are build-in standard *exceptions*, but you can define your own exceptions, too.
 
