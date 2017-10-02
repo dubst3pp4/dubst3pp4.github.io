@@ -56,7 +56,7 @@ But despite the fast compilation of code, the compiled code itself is very compe
 
 ## Pascal is verbose
 
-This is maybe the fact, that most developers annoys about Pascal: the absence of braces and the very verbose syntax of the language. As an example instead of opening and closing braces, Pascal uses the `begin` and `end` keywords for blocks. The whole syntax is readable like plain English. You should consider one important question by yourself: *What is more important?* The ability to have a short syntax to write code fast *or* the possibility to read and understand code that was written by other developers? I'm in favour of the second fact and I really enjoy that verboseness.
+This is maybe the fact, that most developers annoys about Pascal: the absence of braces and the very verbose syntax of the language. As an example, instead of opening and closing braces, Pascal uses the `begin` and `end` keywords for blocks and the `if` keyword is complemented by the word `then`. The whole syntax is readable like plain English. If you start to cry now, you should consider one important question by yourself: *What is more important?* The ability to have a short syntax to write code fast *or* the possibility to read and understand code that was written by other developers or even by you a year ago? I'm in favour of the second fact and I really enjoy that verboseness.
 
 
 ## Pascal has good documentation
