@@ -54,6 +54,8 @@ But despite the fast compilation of code, the compiled code itself is nearly as 
 
 ## Pascal is verbose
 
+
+
 ## Pascal has good documentation
 
 ## Pascal has a great community
