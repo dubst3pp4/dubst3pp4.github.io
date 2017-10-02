@@ -26,23 +26,31 @@ The language offers you many predefined types, but you have a broad possibility 
 
 You even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*. Functions and procedure can also be passed to variables or other funtions thanks to the *procedural types*.
 
-It is also possible to overload operators for your types, so you can define the result of the operation when you - for example - add two objects.
+And for the fearless developer, it is possible to overload operators for existing or your own types. So you will have the power to define, let's say, the result of the addition of two or more objects.
 
 ## Object Pascal has full support for OOP
 
-Object Pascal provides you all the tools you need for Object Oriented Programming (OOP). Although the language is not fully object oriented in that way like Smalltalk or Ruby, where even the most basic types like Integers or Booleans are instances of classes (objects), you will find all the concepts that define OOP: encapsulation, inheritance and polymorphism.
+Object Pascal provides you all the tools you need for modern Object Oriented Programming (OOP). Although the language is not fully object oriented in that sense like Smalltalk or Ruby, where even the most basic data types are instances of classes, you will find all the concepts that define OOP in the Object Pascal language: *encapsulation*, *inheritance* and *polymorphism*.
 
-You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way on how data is accessed by *properties*, which define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the classes within your application. The base class of all these classes is `TObject`.
+You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way of *how* data is accessed by *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data you have modeled within your application. The base class of all classes is `TObject`.
 
-Contracts between your data types and the client code can be defined by the concept of *interfaces*. There are build-in standard *exceptions*, but you can define your own exceptions, too.
+*Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have the freedom to define your own exceptions, too.
+
+Further features are *Generics*, to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
 
 ## Pascal is modular
 
-Pascal supports programming in a modular way. What is called *packages* or *modules* in languages like Java or JavaScript, is called an `unit` in Pascal. An unit can contain all the code that has a common relation. You can define which data, types or functions of this unit are visible to other parts of your program, this is called the `interface`. And you can also define which parts are not visible to others and thus are private to the unit - this is called the `implementation` part. You can even define code, which gets executed once when the unit is included into your program, the `initialization` part of the unit, and code that gets executed when the program terminates, the `finalization` part.
+Pascal supports programming in a modular way. What is called *packages* or *modules* in other languages like Java or JavaScript, is called an `unit` in Pascal. 
 
-Units have another advantage: they encapsulate the code in its own namespace. So you can have two or even more procedures with the same name in two different units without an name-collision.
+An unit can contain all the code that has a common relation. You can define which data, types or functions of this unit are visible to other parts of your program - this is called the `interface`. And you can also define which parts are not visible to others and thus are private to the unit - this is called the `implementation` part. You can even define code, which gets executed once when the unit is included into your program, the `initialization` part of the unit, and code that gets executed when the program terminates, the `finalization` part.
+
+Units have another advantage: they encapsulate the code in its own namespace. So you can have for example two or even more procedures with the same name in two different units without an name-collision.
 
 ## Pascal is fast
+
+One of the reasons why the early Turbo Pascal was a huge success was the speed of the compiler. Even on older hardware code was compiled in a few seconds. In comparison to other compilers this is still true today.
+
+But despite the fast compilation of code, the compiled code itself is nearly as fast a application developed in plain C. The compiled code is highly optimized for the different processor architectures, allowing the program to run at a very high speed and with little consumption of memory.
 
 ## Pascal is verbose
 
