@@ -73,12 +73,12 @@ Object Pascal is really worth a look. Don't let discourage you by people that te
 
 [^1]: http://www.computerhistory.org/atchm/adobe-photoshop-source-code
 [^2]: http://turbopascal.org
-[^3]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
+[^3]: You can read more about the history of Pascal at http://wiki.freepascal.org/Object_Pascal_History
 [^4] https://www.embarcadero.com/products/delphi
 [^5] http://www.freepascal.org
 [^6] http://www.lazarus-ide.org
 [^7] http://castle-engine.io/modern_pascal_introduction.html
-[^8] You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
+[^8] You can see a performance benchmark at http://benchmarksgame.alioth.debian.org/u64q/pascal.html
 [^9] https://www.freepascal.org/docs.var
 [^11] https://forum.lazarus.freepascal.org
 [^12] https://plus.google.com/communities/114860965042324270757
