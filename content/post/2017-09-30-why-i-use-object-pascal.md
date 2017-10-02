@@ -32,11 +32,13 @@ And for the fearless developer, it is possible to overload operators for existin
 
 Object Pascal provides you all the tools you need for modern Object Oriented Programming (OOP). Although the language is not fully object oriented in that sense like Smalltalk or Ruby, where even the most basic data types are instances of classes, you will find all the concepts that define OOP in the Object Pascal language: *encapsulation*, *inheritance* and *polymorphism*.
 
-You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way of *how* data is accessed by *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data you have modeled within your application. The base class of all classes is `TObject`.
+You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way of *how* data is accessed by *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data and behaviour you have modelled within your application. The base class of all classes is `TObject`.
 
 *Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have the freedom to define your own exceptions, too.
 
 Further features are *Generics*, to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
+
+For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called [Modern Object Pascal Introduction for Programmers](http://castle-engine.io/modern_pascal_introduction.html)
 
 ## Pascal is modular
 
@@ -54,10 +56,20 @@ But despite the fast compilation of code, the compiled code itself is nearly as 
 
 ## Pascal is verbose
 
+This is maybe the fact, that most developers annoys about Pascal: the absence of braces and the very verbose syntax of the language. Instead of opening and closing braces Pascal uses the `begin` and `end` keywords for blocks. The whole syntax is readable like plain English and despite the fact that you will have to type more than in languages with a C-style syntax, you have to answer one important question for yourself: *What is more important?* The ability to have a short syntax to write code fast *or* the possibility to read and understand code that was written by other developers? I'm in favour of the second question and I really enjoy that verboseness.
 
 
 ## Pascal has good documentation
 
+A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the Runtime Library (RTL), Free Component Library (FCL) and the Lazarus Component Library (LCL). In addition to this you will find many examples in the Free Pascal Wiki, but this takes us to the fact that...
+
 ## Pascal has a great community
+
+Beside the official wiki, there is also an official forum where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the Free Pascal and Lazarus Community, too. There is an annual Pascal Conference (PasCon) and well as multiple local Free Pascal and Lazarus meetups. And with the Blaise Pascal Magazine you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+
+## Conclusion
+
+Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine Castle, which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
+
 
 [^1]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
