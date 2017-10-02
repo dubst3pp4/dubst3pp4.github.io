@@ -22,9 +22,9 @@ But beside this historical excursion, what are the reasons that I use Free Pasca
 
 Pascal is a compiled, statically-typed language, which requires, that you define the types of all variables, parameters and functions in your code. The compiler will instantly raise an error when you're trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about *how to structure your data*. 
 
-The language offers you many predefined types, but you have a broad possibility to define your own types. For this task Pascal offers you *Enumerations*, *Sets*, *Arrays*, *Records* and *Classes*. It is even possible to create sub-ranges of existing types or to rename existing types. 
+The language offers you many predefined types, but you have a broad possibility to define your own types. For this task Pascal offers you *Enumerations*, *Sets*, *Arrays*, *Records* and *Classes*. It is even possible to create sub-ranges of existing types or to rename them. 
 
-You even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*. Functions and procedure can also be passed to variables or other funtions thanks to the *procedural types*.
+Pascal is very strict, so you even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*. Functions and procedure can also be passed to variables or other funtions thanks to the *procedural types*.
 
 And for the fearless developer, it is possible to overload operators for existing or your own types. So you will have the power to define, let's say, the result of the addition of two or more objects.
 
