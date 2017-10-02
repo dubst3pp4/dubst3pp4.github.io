@@ -26,7 +26,7 @@ The language offers you many predefined types, but you have a broad possibility 
 
 Pascal is very strict, so you even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, called *procedures*. Functions and procedures can also be passed to variables or other functions thanks to the *procedural types*.
 
-And for the fearless developer, it is possible to overload operators for existing or your own types. So you will have the power to define, let's say, the result of the addition of two or more objects.
+And for the fearless developer, it is possible to overload operators for existing types or your own ones. With this feature, you have the power to define, let's say, the result of the addition of two or more objects.
 
 ## Object Pascal has full support for OOP
 
