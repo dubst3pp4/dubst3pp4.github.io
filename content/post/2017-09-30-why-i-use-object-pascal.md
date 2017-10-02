@@ -6,11 +6,11 @@ draft: true
 ---
 Pascal is considered by many programers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into modern, full featured language over the last decades.<!--more--> 
 
-Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications (it was the primary language of choice for MacOS classic development - Photoshop 1 was developed in Pascal, too). 
+Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
-Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal.[^1] 
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal. With the time some object-oriented additions were added to the language by first by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^2] 
 
-Today there are two major implementations: **Delphi™**, the official Turbo Pascal successor, and **Free Pascal**.
+Today there are two major implementations: **Delphi**, the official Turbo Pascal successor, and **Free Pascal**.
 
 Delphi is a Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
 
@@ -71,5 +71,5 @@ Beside the official wiki, there is also an official forum where Free Pascal and 
 
 Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine Castle, which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
-
-[^1]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
+[^1]: [Adobe Photoshop Source Code](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
+[^2]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
