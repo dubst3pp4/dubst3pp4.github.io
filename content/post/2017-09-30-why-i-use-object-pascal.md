@@ -52,7 +52,7 @@ Units have another advantage: they encapsulate the code in its own namespace. So
 
 One of the reasons why the early Turbo Pascal was a huge success was the speed of the compiler. Even on older hardware code was compiled in a few seconds. In comparison to other compilers this is still true today.
 
-But despite the fast compilation of code, the compiled code itself is nearly as fast a application developed in plain C. The compiled code is highly optimized for the different processor architectures, allowing the program to run at a very high speed and with little consumption of memory.
+But despite the fast compilation of code, the compiled code itself is very competitive to an application developed in plain C, C++ or Java due to a highly optimization for the different processor architectures, allowing the program to run at a very high speed and with little consumption of memory.[^8]
 
 ## Pascal is verbose
 
@@ -78,3 +78,4 @@ Object Pascal is really worth a look. Don't let discourage you by people that te
 [^5] http://www.freepascal.org
 [^6] http://www.lazarus-ide.org
 [^7] http://castle-engine.io/modern_pascal_introduction.html
+[^8] You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
