@@ -4,11 +4,15 @@ date: 2017-09-29 12:07:41 +0200
 draft: true
 
 ---
-Pascal is one of the older programming languages that are used today. Older in this context means, that it was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. Despite the fact, that it is now older than 40(!) years, the language has greatly involved in the last decades. All of the features that are required by a modern programming language are supported by Pascal, too.<!--more-->
+Pascal is considered by many programers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into modern, full featured language over the last decades.<!--more--> 
 
-Pascal was standardized as an ISO standard in the early 90s. Unlike other languages, there were different Pascal dialects and compilers since the beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Turbo Pascal.[^1] Today there are two major implementations: **Delphi™**, the official Turbo Pascal successor, and **Free Pascal**.
+Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications (it was the primary language of choice for MacOS classic development - Photoshop 1 was developed in Pascal, too). 
 
-Delphi is a Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal.[^1] 
+
+Today there are two major implementations: **Delphi™**, the official Turbo Pascal successor, and **Free Pascal**.
+
+Delphi is a Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
 
 [Free Pascal](http://www.freepascal.org) is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the [Lazarus IDE](http://www.lazarus-ide.org) was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
 
@@ -16,7 +20,13 @@ But beside this historical excursion, what are the reasons that I use Free Pasca
 
 ## Pascal focus on types
 
-Pascal is a compiled, statically-typed language, which requires, that you define the types of all variables, parameters and functions in your code. The compiler will raise an error when you're trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about *how to structure your data*. The language offers you many predefined types, but you can also create your own types (which are `Enums`, `Sets`, `Arrays`, `Records` and `Classes`), sub-ranges of existing types or rename existing ones. You even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*.  It is also possible to overload operators for your types, so you can define the result of the operation when you - for example - add two objects. To pass functions or procedures as data to your code, Free Pascal gives you the possibility to define *procedural types*.
+Pascal is a compiled, statically-typed language, which requires, that you define the types of all variables, parameters and functions in your code. The compiler will instantly raise an error when you're trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about *how to structure your data*. 
+
+The language offers you many predefined types, but you have a broad possibility to define your own types. For this task Pascal offers you *Enumerations*, *Sets*, *Arrays*, *Records* and *Classes*. It is even possible to create sub-ranges of existing types or to rename existing types. 
+
+You even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*. Functions and procedure can also be passed to variables or other funtions thanks to the *procedural types*.
+
+It is also possible to overload operators for your types, so you can define the result of the operation when you - for example - add two objects.
 
 ## Object Pascal has full support for OOP
 
