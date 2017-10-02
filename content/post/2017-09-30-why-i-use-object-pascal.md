@@ -65,7 +65,7 @@ A language without a good documentation is only half the value. The team behind 
 
 ## Pascal has a great community
 
-Beside the official wiki, there is also an official forum[^8] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Google+ Free Pascal / Lazarus IDE Community*[^9], too. There are several Object Pascal related conferences and well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^10] you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+Beside the official wiki, there is also an official forum[^8] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Google+ Free Pascal / Lazarus IDE Community*[^9], too. There are several Object Pascal related conferences as well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^10] you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
 
 ## Conclusion
 
