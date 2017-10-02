@@ -65,7 +65,7 @@ A language without a good documentation is only half the value. The team behind 
 
 ## Pascal has a great community
 
-Beside the official wiki, there is also an official forum[^11] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Free Pascal and Lazarus Community*[^12], too. There is an annual *Pascal Conference (PasCon)*[^13] and well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^14] you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+Beside the official wiki, there is also an official forum[^11] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Free Pascal and Lazarus Community*[^12], too. There are several Object Pascal related conferences and well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^13] you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
 
 ## Conclusion
 
@@ -80,5 +80,7 @@ Object Pascal is really worth a look. Don't let discourage you by people that te
 [^7] http://castle-engine.io/modern_pascal_introduction.html
 [^8] You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
 [^9] https://www.freepascal.org/docs.var
-
+[^11] https://forum.lazarus.freepascal.org
+[^12] https://plus.google.com/communities/114860965042324270757
+[^13] http://www.blaisepascal.eu
 [^15] http://castle-engine.io
