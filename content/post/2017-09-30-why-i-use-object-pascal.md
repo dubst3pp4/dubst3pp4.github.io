@@ -8,13 +8,13 @@ Pascal is considered by many programers as an old language from the past. And al
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
-Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal. With the time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^2] 
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal[^2]. With the time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^3] 
 
-Today there are two major implementations: **Delphi**, the official Turbo Pascal successor, and **Free Pascal**.
+Today there are two major implementations: **Delphi**[^4], the official Turbo Pascal successor, and **Free Pascal**[^5].
 
 Delphi is a Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
 
-[Free Pascal](http://www.freepascal.org) is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the [Lazarus IDE](http://www.lazarus-ide.org) was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
+Free Pascal is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the Lazarus IDE[^6] was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
 
 But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?
 
@@ -71,5 +71,9 @@ Beside the official wiki, there is also an official forum where Free Pascal and 
 
 Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine Castle, which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
-[^1]: [Adobe Photoshop Source Code](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
-[^2]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
+[^1]: http://www.computerhistory.org/atchm/adobe-photoshop-source-code
+[^2]: http://turbopascal.org
+[^3]: You can read more about the history of Pascal [here](http://wiki.freepascal.org/Object_Pascal_History)
+[^4] https://www.embarcadero.com/products/delphi
+[^5] http://www.freepascal.org
+[^6] http://www.lazarus-ide.org
