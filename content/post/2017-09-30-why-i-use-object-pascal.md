@@ -8,13 +8,13 @@ Pascal is considered by many programers as an old language from the past. And al
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
-Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal[^2]. With the time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^3] 
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands *Turbo Pascal*[^2]. With the time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^3] 
 
-Today there are two major implementations: **Delphi**[^4], the official Turbo Pascal successor, and **Free Pascal**[^5].
+Today there are two major implementations: **[Delphi](https://www.embarcadero.com/products/delphi)**, the official Turbo Pascal successor, and **[Free Pascal](http://www.freepascal.org)**.
 
 Delphi is a Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
 
-Free Pascal is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the Lazarus IDE[^6] was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
+Free Pascal is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the **[Lazarus IDE](http://www.lazarus-ide.org)** was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
 
 But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?
 
@@ -38,7 +38,7 @@ You can define complex types with the help of classes. A class can define *metho
 
 Further features are *Generics*, to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
 
-For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called *Modern Object Pascal Introduction for Programmers*[^7].
+For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called *Modern Object Pascal Introduction for Programmers*[^4].
 
 ## Pascal is modular
 
@@ -52,7 +52,7 @@ Units have another advantage: they encapsulate the code in its own namespace. So
 
 One of the reasons why the early Turbo Pascal was a huge success was the speed of the compiler. Even on older hardware code was compiled in a few seconds. In comparison to other compilers this is still true today.
 
-But despite the fast compilation of code, the compiled code itself is very competitive to an application developed in plain C, C++ or Java due to a highly optimization for the different processor architectures, allowing the program to run at a very high speed and with little consumption of memory.[^8]
+But despite the fast compilation of code, the compiled code itself is very competitive to an application developed in plain C, C++ or Java due to a highly optimization for the different processor architectures, allowing the program to run at a very high speed and with little consumption of memory.[^5]
 
 ## Pascal is verbose
 
@@ -61,26 +61,24 @@ This is maybe the fact, that most developers annoys about Pascal: the absence of
 
 ## Pascal has good documentation
 
-A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the *Runtime Library (RTL)*, *Free Component Library (FCL)* and the *Lazarus Component Library (LCL)*[^9]. In addition to this you will find many examples in the *Free Pascal Wiki*[^10], but this takes us to the fact that...
+A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the *Runtime Library (RTL)*, *Free Component Library (FCL)* and the *Lazarus Component Library (LCL)*[^6]. In addition to this you will find many examples in the *Free Pascal Wiki*[^7], but this takes us to the fact that...
 
 ## Pascal has a great community
 
-Beside the official wiki, there is also an official forum[^11] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Free Pascal and Lazarus Community*[^12], too. There are several Object Pascal related conferences and well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^13] you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+Beside the official wiki, there is also an official forum[^8] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Google+ Free Pascal / Lazarus IDE Community*[^9], too. There are several Object Pascal related conferences and well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^10] you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
 
 ## Conclusion
 
-Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine *Castle*[^15], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
+Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the *Castle Game Engine*[^11], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
 [^1]: http://www.computerhistory.org/atchm/adobe-photoshop-source-code
 [^2]: http://turbopascal.org
 [^3]: You can read more about the history of Pascal at http://wiki.freepascal.org/Object_Pascal_History
-[^4]: https://www.embarcadero.com/products/delphi
-[^5]: http://www.freepascal.org
-[^6]: http://www.lazarus-ide.org
-[^7]: http://castle-engine.io/modern_pascal_introduction.html
-[^8]: You can see a performance benchmark at http://benchmarksgame.alioth.debian.org/u64q/pascal.html
-[^9]: https://www.freepascal.org/docs.var
-[^11]: https://forum.lazarus.freepascal.org
-[^12]: https://plus.google.com/communities/114860965042324270757
-[^13]: http://www.blaisepascal.eu
-[^15]: http://castle-engine.io
+[^4]: http://castle-engine.io/modern_pascal_introduction.html
+[^5]: You can see a performance benchmark at http://benchmarksgame.alioth.debian.org/u64q/pascal.html
+[^6]: http://www.freepascal.org/docs.var
+[^7]: http://wiki.freepascal.org
+[^8]: https://forum.lazarus.freepascal.org
+[^9]: https://plus.google.com/communities/114860965042324270757
+[^10]: http://www.blaisepascal.eu
+[^11]: http://castle-engine.io
