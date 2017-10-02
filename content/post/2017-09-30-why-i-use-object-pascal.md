@@ -38,7 +38,7 @@ You can define complex types with the help of classes. A class can define *metho
 
 Further features are *Generics*, to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
 
-For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called [Modern Object Pascal Introduction for Programmers](http://castle-engine.io/modern_pascal_introduction.html)
+For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called *Modern Object Pascal Introduction for Programmers*[^7].
 
 ## Pascal is modular
 
@@ -77,3 +77,4 @@ Object Pascal is really worth a look. Don't let discourage you by people that te
 [^4] https://www.embarcadero.com/products/delphi
 [^5] http://www.freepascal.org
 [^6] http://www.lazarus-ide.org
+[^7] http://castle-engine.io/modern_pascal_introduction.html
