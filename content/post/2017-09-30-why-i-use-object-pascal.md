@@ -8,7 +8,7 @@ Pascal is considered by many programers as an old language from the past. And al
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
-Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal. With the time some object-oriented additions were added to the language by first by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^2] 
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands Turbo Pascal. With the time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^2] 
 
 Today there are two major implementations: **Delphi**, the official Turbo Pascal successor, and **Free Pascal**.
 
