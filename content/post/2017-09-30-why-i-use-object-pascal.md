@@ -24,7 +24,7 @@ Pascal is a compiled, statically-typed language, which requires, that you define
 
 The language offers you many predefined types, but you have a broad possibility to define your own types. For this task Pascal offers you *Enumerations*, *Sets*, *Arrays*, *Records* and *Classes*. It is even possible to create sub-ranges of existing types or to rename them. 
 
-Pascal is very strict, so you even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, *procedures*. Functions and procedure can also be passed to variables or other funtions thanks to the *procedural types*.
+Pascal is very strict, so you even have to differ between subroutines that return values and thus have side-effects, *functions*, and subroutines that does not return something, called *procedures*. Functions and procedures can also be passed to variables or other functions thanks to the *procedural types*.
 
 And for the fearless developer, it is possible to overload operators for existing or your own types. So you will have the power to define, let's say, the result of the addition of two or more objects.
 
