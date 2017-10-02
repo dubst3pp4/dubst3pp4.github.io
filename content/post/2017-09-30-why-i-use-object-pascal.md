@@ -61,15 +61,15 @@ This is maybe the fact, that most developers annoys about Pascal: the absence of
 
 ## Pascal has good documentation
 
-A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the Runtime Library (RTL), Free Component Library (FCL) and the Lazarus Component Library (LCL). In addition to this you will find many examples in the Free Pascal Wiki, but this takes us to the fact that...
+A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the Runtime Library (RTL), Free Component Library (FCL) and the Lazarus Component Library (LCL)[^9]. In addition to this you will find many examples in the Free Pascal Wiki, but this takes us to the fact that...
 
 ## Pascal has a great community
 
-Beside the official wiki, there is also an official forum where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the Free Pascal and Lazarus Community, too. There is an annual Pascal Conference (PasCon) and well as multiple local Free Pascal and Lazarus meetups. And with the Blaise Pascal Magazine you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+Beside the official wiki[^10], there is also an official forum[^11] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the Free Pascal and Lazarus Community[^12], too. There is an annual Pascal Conference (PasCon)[^13] and well as multiple local Free Pascal and Lazarus meetups. And with the Blaise Pascal Magazine[^14] you will find a monthly publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
 
 ## Conclusion
 
-Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine Castle, which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
+Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engine Castle[^15], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
 [^1]: http://www.computerhistory.org/atchm/adobe-photoshop-source-code
 [^2]: http://turbopascal.org
@@ -79,3 +79,6 @@ Object Pascal is really worth a look. Don't let discourage you by people that te
 [^6] http://www.lazarus-ide.org
 [^7] http://castle-engine.io/modern_pascal_introduction.html
 [^8] You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
+[^9] https://www.freepascal.org/docs.var
+
+[^15] http://castle-engine.io
