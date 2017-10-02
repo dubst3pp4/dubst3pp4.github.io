@@ -4,7 +4,7 @@ date: 2017-09-29 12:07:41 +0200
 draft: true
 
 ---
-Pascal is considered by many programers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into modern, full featured language over the last decades.<!--more--> 
+Pascal is considered by many programers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more--> 
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
