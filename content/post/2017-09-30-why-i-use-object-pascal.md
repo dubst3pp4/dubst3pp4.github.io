@@ -32,7 +32,7 @@ And for the fearless developer, it is possible to overload operators for existin
 
 Object Pascal provides you all the tools you need for modern Object Oriented Programming (OOP). Although the language is not fully object oriented in that sense like Smalltalk or Ruby, where even the most basic data types are instances of classes, you will find all the concepts that define OOP in the Object Pascal language: *encapsulation*, *inheritance* and *polymorphism*.
 
-You can define you own classes as you would do with the basic types. A class can define *methods* (which are procedures or functions) and *data* (called fields in Object Pascal). It is also possible to define the way of *how* data is accessed by *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data and behaviour you have modelled within your application. The base class of all classes is `TObject`.
+You can define complex types with the help of classes. A class can define *methods*, which are procedures or functions, and *data*, called fields in Object Pascal. It is also possible to define the way of *how* data is accessed by a feature called *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data and behaviour you have modelled within your application. The base class of all classes is `TObject`.
 
 *Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have the freedom to define your own exceptions, too.
 
