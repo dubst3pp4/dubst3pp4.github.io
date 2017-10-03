@@ -4,8 +4,6 @@ date: 2017-09-29 12:07:41 +0200
 draft: true
 
 ---
-
-
 Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more-->
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
@@ -74,13 +72,12 @@ Beside the official wiki, there is also an official forum[^8] where Free Pascal 
 
 Object Pascal is really worth a look. Don't let you discourage by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the *Castle Game Engine*[^11], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
-[^3]: You can read more about the history of Pascal at http://wiki.freepascal.org/Object_Pascal_History
+[^3]: You can read more about the history of Pascal in the [Free Pascal Wiki](http://wiki.freepascal.org/Object_Pascal_History)
 [^4]: http://castle-engine.io/modern_pascal_introduction.html
-[^5]: You can see a performance benchmark at http://benchmarksgame.alioth.debian.org/u64q/pascal.html
+[^5]: You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
 [^6]: http://www.freepascal.org/docs.var
 [^7]: http://wiki.freepascal.org
 [^8]: https://forum.lazarus.freepascal.org
 [^9]: https://plus.google.com/communities/114860965042324270757
 [^10]: http://www.blaisepascal.eu
 [^11]: http://castle-engine.io
-
