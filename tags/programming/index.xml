@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on dubst3pp4</title>
+    <link>https://dubst3pp4.github.io/tags/programming/</link>
+    <description>Recent content in Programming on dubst3pp4</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 21:23:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://dubst3pp4.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I use Object Pascal</title>
+      <link>https://dubst3pp4.github.io/post/2017-10-03-why-i-use-object-pascal/</link>
+      <pubDate>Tue, 03 Oct 2017 21:23:00 +0200</pubDate>
+      
+      <guid>https://dubst3pp4.github.io/post/2017-10-03-why-i-use-object-pascal/</guid>
+      <description>&lt;p&gt;Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

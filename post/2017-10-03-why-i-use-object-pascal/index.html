@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Why I use Object Pascal</title>
+  <meta property="og:title" content="Why I use Object Pascal" />
+  <meta name="twitter:title" content="Why I use Object Pascal" />
+  <meta name="description" content="Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.">
+  <meta property="og:description" content="Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.">
+  <meta name="twitter:description" content="Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured …">
+  <meta name="author" content="Marc Hanisch"/>
+  <meta property="og:image" content="https://dubst3pp4.github.io/img/dubst3pp4-avatar.png" />
+  <meta name="twitter:image" content="https://dubst3pp4.github.io/img/dubst3pp4-avatar.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dubst3pp4" />
+  <meta name="twitter:creator" content="@dubst3pp4" />
+  <meta property="og:url" content="https://dubst3pp4.github.io/post/2017-10-03-why-i-use-object-pascal/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="dubst3pp4" />
+
+  <meta name="generator" content="Hugo 0.27.1" />
+  <link rel="canonical" href="https://dubst3pp4.github.io/post/2017-10-03-why-i-use-object-pascal/" />
+  <link rel="alternate" href="https://dubst3pp4.github.io/index.xml" type="application/rss+xml" title="dubst3pp4">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://dubst3pp4.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://dubst3pp4.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://dubst3pp4.github.io/css/highlight.min.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://dubst3pp4.github.io/">dubst3pp4</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Imprint" href="/imprint/">Imprint</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="dubst3pp4" href="https://dubst3pp4.github.io/">
+            <img class="avatar-img" src="https://dubst3pp4.github.io/img/dubst3pp4-avatar.png" alt="dubst3pp4" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Why I use Object Pascal</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on October 3, 2017
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.</p>
+
+<p>Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.<sup class="footnote-ref" id="fnref:http-www-computerhistory-org-atchm-adobe-photoshop-source-code"><a rel="footnote" href="#fn:http-www-computerhistory-org-atchm-adobe-photoshop-source-code">0</a></sup></p>
+
+<p>Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands <em>Turbo Pascal</em><sup class="footnote-ref" id="fnref:http-turbopascal-org"><a rel="footnote" href="#fn:http-turbopascal-org">0</a></sup>. Over time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call <strong>Object Pascal</strong>.<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">1</a></sup></p>
+
+<p>Today there are two major implementations: <strong><a href="https://www.embarcadero.com/products/delphi">Delphi</a></strong>, the official Turbo Pascal successor, and <strong><a href="http://www.freepascal.org">Free Pascal</a></strong>.</p>
+
+<p>Delphi is a commercial Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.</p>
+
+<p>Free Pascal in contrast is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the <strong><a href="http://www.lazarus-ide.org">Lazarus IDE</a></strong> was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal <em>and</em> Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.</p>
+
+<p><img src="/uploads/2017/10/lazarus-ide-1.6.4.png" alt="The Lazarus IDE" /></p>
+
+<p>But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?</p>
+
+<h2 id="pascal-focus-on-types">Pascal focus on types</h2>
+
+<p>Pascal is a compiled, statically-typed language, which requires, that you define the types of all variables, parameters and functions in your code. The compiler will instantly raise an error when you&rsquo;re trying to pass incompatible types to a variable or parameter. The type-safety has one big advantage: it forces you to think about <em>how to structure your data</em>.</p>
+
+<p>The language offers many predefined types, but you can also define your own types. For this task Pascal offers you <em>Enumerations</em>, <em>Sets</em>, <em>Arrays</em>, <em>Records</em> and <em>Classes</em>. It is even possible to create sub-ranges of types or to rename existing ones.</p>
+
+<p>Pascal is very strict, so the programmer has to differ between subroutines that return values and thus have side-effects, in Pascal called <em>functions</em>, and subroutines that does not return something, called <em>procedures</em>. Functions and procedures can also be passed to variables or other functions thanks to <em>procedural types</em>.</p>
+
+<p>It is possible to overload operators for specific types. With this feature, you have the power to define, let&rsquo;s say, the result of the addition operation of two or more instances of the same class.</p>
+
+<h2 id="object-pascal-has-full-support-for-oop">Object Pascal has full support for OOP</h2>
+
+<p>Object Pascal provides you all the tools you need for modern Object Oriented Programming (OOP). Although the language is not fully object oriented in that sense like Smalltalk or Ruby, where even the most basic data types are instances of classes, you will find all the concepts that define OOP in the Object Pascal language: <em>encapsulation</em>, <em>inheritance</em> and <em>polymorphism</em>.</p>
+
+<p>You can define complex types with the help of classes. A class can define <em>methods</em>, which are procedures or functions, and <em>data</em>, called fields in Object Pascal. It is also possible to define the way of <em>how</em> data is accessed by a feature called <em>properties</em>. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data and behaviour you have modelled within your application. The base class of all classes is <code>TObject</code>.</p>
+
+<p><em>Interfaces</em> are also a part of Object Pascal as well as <em>Exceptions</em>. You can use the build-in standard exceptions, but you have of course the freedom to define your own exceptions. <em>Class helpers</em> are comparable with Smalltalks or PHPs traits (although not exactly the same) and let you add methods to existing classes without the need to derive a new class.</p>
+
+<p>Further features are <em>Generics</em> to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.</p>
+
+<p>For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called <em>Modern Object Pascal Introduction for Programmers</em><sup class="footnote-ref" id="fnref:4"><a rel="footnote" href="#fn:4">2</a></sup>.</p>
+
+<h2 id="pascal-is-modular">Pascal is modular</h2>
+
+<p>Pascal supports programming in a modular way. What is called <em>packages</em> or <em>modules</em> in other languages like Java or JavaScript, is called an <code>unit</code> in Pascal.</p>
+
+<p>An unit can contain all the code that has a common relation. You can define which data, types or functions of this unit are visible to other parts of your program - this is called the <code>interface</code>. And you can also define which parts are not visible to others and thus are private to the unit - this is called the <code>implementation</code> part. You can even define code, which gets executed once when the unit is included into your program, the <code>initialization</code> part of the unit, and code that gets executed when the program terminates, the <code>finalization</code> part.</p>
+
+<p>Units have another advantage: they encapsulate the code in its own namespace. So you can have for example two or even more procedures with the same name in two different units without a name-collision.</p>
+
+<h2 id="pascal-is-fast">Pascal is fast</h2>
+
+<p>One of the reasons why the early Turbo Pascal was a huge success was the speed of the compiler. Even on older hardware code was compiled in a few seconds. In comparison to other compilers this is still true today.</p>
+
+<p>But despite the fast compilation of code, the compiled code itself is very competitive to applications developed in plain C, C++ or Java due to the highly optimization for different processor architectures, allowing the program to run at a very high speed and with little memory consumption.<sup class="footnote-ref" id="fnref:5"><a rel="footnote" href="#fn:5">3</a></sup></p>
+
+<h2 id="pascal-is-verbose">Pascal is verbose</h2>
+
+<p>This is maybe the fact, that most developers are annoyed about: the absence of braces and the very verbose syntax of the language. As an example, instead of opening and closing braces, Pascal uses the <code>begin</code> and <code>end</code> keywords for blocks. The <code>if</code> keyword is complemented by the word <code>then</code>. As you can see, the whole syntax is readable like plain English. If you start to cry now, you should consider one important question by yourself: <em>What is more important?</em> The ability to have a short syntax to write code fast <em>or</em> the possibility to read and understand code that was written by other developers or even by you a year ago? I&rsquo;m in favour of the second fact and I really enjoy that verboseness.</p>
+
+<h2 id="pascal-has-good-documentation">Pascal has good documentation</h2>
+
+<p>A language without a good documentation is only half the value. The team behind Free Pascal has done a very good job. You can browse the whole language documentation as well as the documention about the compiler itself, the <em>Runtime Library (RTL)</em>, <em>Free Component Library (FCL)</em> and the <em>Lazarus Component Library (LCL)</em><sup class="footnote-ref" id="fnref:6"><a rel="footnote" href="#fn:6">4</a></sup>. In addition to this you will find many examples in the <em>Free Pascal Wiki</em><sup class="footnote-ref" id="fnref:7"><a rel="footnote" href="#fn:7">5</a></sup>, but this takes us to the fact that&hellip;</p>
+
+<h2 id="pascal-has-a-great-community">Pascal has a great community</h2>
+
+<p>Beside the official wiki, there is also an official forum<sup class="footnote-ref" id="fnref:8"><a rel="footnote" href="#fn:8">6</a></sup> where Free Pascal and Lazarus users will answer your questions. If you&rsquo;re active on Google+ you can have a look at the <em>Google+ Free Pascal / Lazarus IDE Community</em><sup class="footnote-ref" id="fnref:9"><a rel="footnote" href="#fn:9">7</a></sup>, too. There are several (althoug not many) Object Pascal related conferences as well as some local Free Pascal and Lazarus meetups. And with the <em>Blaise Pascal Magazine</em><sup class="footnote-ref" id="fnref:10"><a rel="footnote" href="#fn:10">8</a></sup> you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Object Pascal is really worth a look. Don&rsquo;t let you discourage by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the <em>Castle Game Engine</em><sup class="footnote-ref" id="fnref:11"><a rel="footnote" href="#fn:11">9</a></sup>, which compiles your games for Android and iOS, too. If you&rsquo;re interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:3">You can read more about the history of Pascal in the <a href="http://wiki.freepascal.org/Object_Pascal_History">Free Pascal Wiki</a>
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:4"><a href="http://castle-engine.io/modern_pascal_introduction.html">http://castle-engine.io/modern_pascal_introduction.html</a>
+ <a class="footnote-return" href="#fnref:4"><sup>[return]</sup></a></li>
+<li id="fn:5">You can see a performance benchmark at <a href="http://benchmarksgame.alioth.debian.org/u64q/pascal.html">The Computer Language Benchmarks Game</a>
+ <a class="footnote-return" href="#fnref:5"><sup>[return]</sup></a></li>
+<li id="fn:6"><a href="http://www.freepascal.org/docs.var">http://www.freepascal.org/docs.var</a>
+ <a class="footnote-return" href="#fnref:6"><sup>[return]</sup></a></li>
+<li id="fn:7"><a href="http://wiki.freepascal.org">http://wiki.freepascal.org</a>
+ <a class="footnote-return" href="#fnref:7"><sup>[return]</sup></a></li>
+<li id="fn:8"><a href="https://forum.lazarus.freepascal.org">https://forum.lazarus.freepascal.org</a>
+ <a class="footnote-return" href="#fnref:8"><sup>[return]</sup></a></li>
+<li id="fn:9"><a href="https://plus.google.com/communities/114860965042324270757">https://plus.google.com/communities/114860965042324270757</a>
+ <a class="footnote-return" href="#fnref:9"><sup>[return]</sup></a></li>
+<li id="fn:10"><a href="http://www.blaisepascal.eu">http://www.blaisepascal.eu</a>
+ <a class="footnote-return" href="#fnref:10"><sup>[return]</sup></a></li>
+<li id="fn:11"><a href="http://castle-engine.io">http://castle-engine.io</a>
+ <a class="footnote-return" href="#fnref:11"><sup>[return]</sup></a></li>
+</ol>
+</div>
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://dubst3pp4.github.io/post/2017-09-27-hugo-git-and-forestry/" data-toggle="tooltip" data-placement="top" title="Hugo, GitHub and forestry.io">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="https://plus.google.com/&#43;MarcHanisch" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/dubst3pp4" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/dubst3pp4" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/dubst3pp4" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://dubst3pp4.github.io/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Marc Hanisch
+                      
+          
+          
+          &nbsp;&bull;&nbsp;
+          2017
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://dubst3pp4.github.io/">dubst3pp4</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.27.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://dubst3pp4.github.io/js/main.js"></script>
+<script src="https://dubst3pp4.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="https://dubst3pp4.github.io/js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+
