@@ -46,7 +46,7 @@ Pascal supports programming in a modular way. What is called *packages* or *modu
 
 An unit can contain all the code that has a common relation. You can define which data, types or functions of this unit are visible to other parts of your program - this is called the `interface`. And you can also define which parts are not visible to others and thus are private to the unit - this is called the `implementation` part. You can even define code, which gets executed once when the unit is included into your program, the `initialization` part of the unit, and code that gets executed when the program terminates, the `finalization` part.
 
-Units have another advantage: they encapsulate the code in its own namespace. So you can have for example two or even more procedures with the same name in two different units without an name-collision.
+Units have another advantage: they encapsulate the code in its own namespace. So you can have for example two or even more procedures with the same name in two different units without a name-collision.
 
 ## Pascal is fast
 
