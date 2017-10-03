@@ -34,7 +34,7 @@ Object Pascal provides you all the tools you need for modern Object Oriented Pro
 
 You can define complex types with the help of classes. A class can define *methods*, which are procedures or functions, and *data*, called fields in Object Pascal. It is also possible to define the way of *how* data is accessed by a feature called *properties*. Properties define which getter- or setter-methods are used to read or write a field. Classes can also inherit other classes, so you can build a hierarchical tree of the data and behaviour you have modelled within your application. The base class of all classes is `TObject`.
 
-*Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have the freedom to define your own exceptions, too.
+*Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have of course the freedom to define your own exceptions. *Class helpers* are comparable with Smalltalks or PHPs traits (although not exactly the same) and let you add methods to existing classes without the need to derive a new class.
 
 Further features are *Generics* to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
 
