@@ -56,7 +56,7 @@ But despite the fast compilation of code, the compiled code itself is very compe
 
 ## Pascal is verbose
 
-This is maybe the fact, that most developers annoys about Pascal: the absence of braces and the very verbose syntax of the language. As an example, instead of opening and closing braces, Pascal uses the `begin` and `end` keywords for blocks and the `if` keyword is complemented by the word `then`. The whole syntax is readable like plain English. If you start to cry now, you should consider one important question by yourself: *What is more important?* The ability to have a short syntax to write code fast *or* the possibility to read and understand code that was written by other developers or even by you a year ago? I'm in favour of the second fact and I really enjoy that verboseness.
+This is maybe the fact, that most developers are annoyed about: the absence of braces and the very verbose syntax of the language. As an example, instead of opening and closing braces, Pascal uses the `begin` and `end` keywords for blocks. The `if` keyword is complemented by the word `then`. As you can see, the whole syntax is readable like plain English. If you start to cry now, you should consider one important question by yourself: *What is more important?* The ability to have a short syntax to write code fast *or* the possibility to read and understand code that was written by other developers or even by you a year ago? I'm in favour of the second fact and I really enjoy that verboseness.
 
 ## Pascal has good documentation
 
@@ -64,11 +64,11 @@ A language without a good documentation is only half the value. The team behind 
 
 ## Pascal has a great community
 
-Beside the official wiki, there is also an official forum[^8] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Google+ Free Pascal / Lazarus IDE Community*[^9], too. There are several Object Pascal related conferences as well as multiple local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^10] you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
+Beside the official wiki, there is also an official forum[^8] where Free Pascal and Lazarus users will answer your questions. If you're active on Google+ you can have a look at the *Google+ Free Pascal / Lazarus IDE Community*[^9], too. There are several (althoug not many) Object Pascal related conferences as well as some local Free Pascal and Lazarus meetups. And with the *Blaise Pascal Magazine*[^10] you will find a regular publication which offers a broad selection of articles about Delphi, Free Pascal, Lazarus and Object Pascal in general.
 
 ## Conclusion
 
-Object Pascal is really worth a look. Don't let discourage you by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the *Castle Game Engine*[^11], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
+Object Pascal is really worth a look. Don't let you discourage by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the *Castle Game Engine*[^11], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
 [^3]: You can read more about the history of Pascal at http://wiki.freepascal.org/Object_Pascal_History
 [^4]: http://castle-engine.io/modern_pascal_introduction.html
