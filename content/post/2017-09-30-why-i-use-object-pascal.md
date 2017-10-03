@@ -36,7 +36,7 @@ You can define complex types with the help of classes. A class can define *metho
 
 *Interfaces* are also a part of Object Pascal as well as *Exceptions*. You can use the build-in standard exceptions, but you have the freedom to define your own exceptions, too.
 
-Further features are *Generics*, to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
+Further features are *Generics* to define classes that apply to a wide range of types, as well as many predefined classes for advanced data structures like lists, dictionaries, streams and many many more.
 
 For an in-depth overview of all the modern OOP features, I recommend an excellent article written by Michalis Kamburelis, which is called *Modern Object Pascal Introduction for Programmers*[^4].
 
