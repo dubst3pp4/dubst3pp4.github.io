@@ -4,6 +4,8 @@ date: 2017-09-29 12:07:41 +0200
 draft: true
 
 ---
+
+
 Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more-->
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
@@ -15,6 +17,8 @@ Today there are two major implementations: **[Delphi](https://www.embarcadero.co
 Delphi is a commercial Rapid Application Development (RAD) environment, which consists of the Object Pascal language, a powerful and fast compiler, a large runtime-library (RTL) and a designer for crossplatform Graphical User Interfaces (GUI). Delphi runs only on Windows, but can compile programs for GNU/Linux, MacOS, Windows, iOS and Android, too.
 
 Free Pascal in contrast is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the **[Lazarus IDE](http://www.lazarus-ide.org)** was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
+
+![](/uploads/2017/10/lazarus-ide-1.6.4.png)
 
 But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?
 
@@ -79,3 +83,4 @@ Object Pascal is really worth a look. Don't let you discourage by people that te
 [^9]: https://plus.google.com/communities/114860965042324270757
 [^10]: http://www.blaisepascal.eu
 [^11]: http://castle-engine.io
+
