@@ -1,6 +1,6 @@
 ---
 title: Why I use Object Pascal
-date: 2017-09-29 12:07:41 +0200
+date: 2017-10-03 21:23:00 +0200
 draft: true
 
 ---
@@ -16,7 +16,7 @@ Delphi is a commercial Rapid Application Development (RAD) environment, which co
 
 Free Pascal in contrast is a free, Open Source implementation of the Object Pascal language. It consists of the language, the compiler and a runtime-library - but does not include the RAD-tools which made Delphi famous. But thanks to some Free Pascal enthusiasts, the **[Lazarus IDE](http://www.lazarus-ide.org)** was developed as a powerful RAD environment especially for Free Pascal. Both, Free Pascal *and* Lazarus, are highly cross-platform and can run on and compile for different systems, among them are GNU/Linux, Windows, MacOS, BSD.
 
-![](/uploads/2017/10/lazarus-ide-1.6.4.png)
+![The Lazarus IDE](/uploads/2017/10/lazarus-ide-1.6.4.png)
 
 But beside this historical excursion, what are the reasons that I use Free Pascal in my personal projects?
 
