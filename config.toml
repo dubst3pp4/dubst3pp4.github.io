@@ -2,6 +2,7 @@ baseURL = "https://dubst3pp4.github.io/"
 languageCode = "en-us"
 theme = "beautifulhugo"
 title = "dubst3pp4"
+disqusShortname = "dubst3pp4"
 [Author]
 github = "dubst3pp4"
 googleplus = "+MarcHanisch"
