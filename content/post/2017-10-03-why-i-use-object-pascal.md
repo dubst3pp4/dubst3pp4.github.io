@@ -1,7 +1,6 @@
 ---
 title: Why I use Object Pascal
 date: 2017-10-03 21:23:00 +0200
-draft: true
 categories:
 - Programming
 tags:
@@ -9,6 +8,7 @@ tags:
 - FreePascal
 - Lazarus
 - Programming
+draft: true
 
 ---
 Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more-->
