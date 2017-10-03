@@ -78,6 +78,8 @@ Beside the official wiki, there is also an official forum[^8] where Free Pascal 
 
 Object Pascal is really worth a look. Don't let you discourage by people that tell you that Pascal is out of date. It is definetly not! There are many great projects out there that prove how strong the language is: from the Lazarus IDE itself to high performance 3D-Game engines like the *Castle Game Engine*[^11], which compiles your games for Android and iOS, too. If you're interested in the path aside of the mainstream languages, have a look at some of the resources I mentioned. Or simply install Free Pascal and Lazarus and try out the language for yourself!
 
+[^1]: http://www.computerhistory.org/atchm/adobe-photoshop-source-code
+[^2]: https://en.m.wikipedia.org/wiki/Turbo_Pascal
 [^3]: You can read more about the history of Pascal in the [Free Pascal Wiki](http://wiki.freepascal.org/Object_Pascal_History)
 [^4]: http://castle-engine.io/modern_pascal_introduction.html
 [^5]: You can see a performance benchmark at [The Computer Language Benchmarks Game](http://benchmarksgame.alioth.debian.org/u64q/pascal.html)
