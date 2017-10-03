@@ -12,9 +12,9 @@ tags:
 ---
 Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more-->
 
-Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
+Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1]
 
-Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands *Turbo Pascal*[^2](http://turbopascal.org). Over time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^3]
+Pascal was standardized as an ISO standard in the early 90s. But unlike other languages, there were different Pascal dialects and compilers since the very beginning. One of the most favourite versions, which made Pascal one of the most well-known and widespread programming languages of the 80s and the early 90s, was Borlands *Turbo Pascal*[^2]. Over time some object-oriented additions were added to the language by Apple and later by Borland, which has evolved into what we now call **Object Pascal**.[^3]
 
 Today there are two major implementations: **[Delphi](https://www.embarcadero.com/products/delphi)**, the official Turbo Pascal successor, and **[Free Pascal](http://www.freepascal.org)**.
 
