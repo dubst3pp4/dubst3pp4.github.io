@@ -10,12 +10,12 @@ name = "Marc Hanisch"
 reddit = "dubst3pp4"
 twitter = "dubst3pp4"
 [[menu.main]]
+name = "Articles"
+weight = 1
+[[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 2
-[[menu.main]]
-name = "Articles"
-weight = 1
 [params]
 comments = true
 dateformat = "January 2, 2006"
