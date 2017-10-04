@@ -1,6 +1,7 @@
 ---
 title: Why I use Object Pascal
-description: Reasons why I use the Object Pascal programming language and specifically Free Pascal
+description: Reasons why I use the Object Pascal programming language and specifically
+  Free Pascal
 date: 2017-10-03 21:23:00 +0200
 categories:
 - Programming
@@ -11,8 +12,6 @@ tags:
 - Programming
 
 ---
-
-
 Pascal is considered by many programmers as an old language from the past. And although it is in fact one of the older programming languages, it has greatly evolved into a modern, full featured language over the last decades.<!--more-->
 
 Pascal was initially developed in 1969 by Dr. Niklaus Wirth on the ETH of Zurich. It was used as a teaching language as well as a language for business applications. With the appearance of the Classic Mac OS, Pascal was the language of choice propagated by Apple for serious application development. As an example, the first version of Photoshop was made with Pascal.[^1](http://www.computerhistory.org/atchm/adobe-photoshop-source-code)
