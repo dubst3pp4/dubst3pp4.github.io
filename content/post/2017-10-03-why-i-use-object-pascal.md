@@ -1,6 +1,7 @@
 ---
 title: Why I use Object Pascal
-description: "Reasons why I use the Object Pascal programming language and specifically Free Pascal"
+description: Reasons why I use the Object Pascal programming language and specifically
+  Free Pascal
 date: 2017-10-03 21:23:00 +0200
 categories:
 - Programming

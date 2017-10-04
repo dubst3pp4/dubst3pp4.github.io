@@ -1,6 +1,6 @@
 ---
 title: Hugo, GitHub and forestry.io
-description: "How I set up a simple and static website with Hugo, GitHub and forestry.io"
+description: How I set up a simple and static website with Hugo, GitHub and forestry.io
 categories:
 - website
 date: 2017-09-27 22:57:56 +0200
