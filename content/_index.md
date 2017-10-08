@@ -4,4 +4,6 @@ title = ""
 type = "page"
 
 +++
-About programming languages, software development and Open Source software. Beside the mainstream. Ankaŭ kelkajn pensaĝojn en Esperanto.
+
+
+About programming languages, software development, Open Source software, retro-computing. Beside the mainstream. Ankaŭ kelkajn pensaĝojn en Esperanto.
