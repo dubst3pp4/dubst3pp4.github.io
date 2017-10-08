@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dubst3pp4.github.io/post/2017-10-08-atari-130xe-part-01/</loc>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dubst3pp4.github.io/post/2017-10-03-why-i-use-object-pascal/</loc>
     <lastmod>2017-10-03T21:23:00+02:00</lastmod>
   </url>
@@ -20,6 +25,24 @@
   <url>
     <loc>https://dubst3pp4.github.io/post/2017-09-27-hugo-git-and-forestry/</loc>
     <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/tags/8bit/</loc>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/tags/atari/</loc>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dubst3pp4.github.io/tags/atari-130xe/</loc>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -65,7 +88,7 @@
   
   <url>
     <loc>https://dubst3pp4.github.io/post/</loc>
-    <lastmod>2017-10-03T21:23:00+02:00</lastmod>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,8 +105,14 @@
   </url>
   
   <url>
+    <loc>https://dubst3pp4.github.io/categories/retro-computing/</loc>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://dubst3pp4.github.io/tags/</loc>
-    <lastmod>2017-09-27T22:57:56+02:00</lastmod>
+    <lastmod>2017-10-08T15:39:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
