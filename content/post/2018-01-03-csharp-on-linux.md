@@ -1,9 +1,9 @@
 ---
-title: "2018 01 03 Csharp on Linux"
-date: 2018-03-01T20:46:56+01:00
+title: 2018 01 03 Csharp on Linux
+date: 2018-03-01 20:46:56 +0100
 draft: true
----
 
+---
 # C# Mono Software on Linux
 - Banshee (not active)
 - F-Spot (not active)
