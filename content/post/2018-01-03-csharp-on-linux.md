@@ -4,7 +4,6 @@ date: 2018-03-01 20:46:56 +0100
 draft: true
 
 ---
-
 C# on Linux exists for a long time, but many users are unaware of this. The languages that are still used mostly today on our OS are C, C++ and various scripting languages Python, Perl and Ruby. Miguel de Icaza, the founder of the Gnome Desktop, was the one who aimed to develop an open, crossplatform C# compiler and Common Language Runtime for Linux, Unix and macOS in 2001. The results suceeded in the Mono Project, which is an open implementation of the .NET ECMA-335 Standard and provides a compiler for the C# ECMA-334 Standard and was released in its first version in 2004.<!--more-->
 
 You may have used or heard of applications like Banshee, a music player, F-Spot, a software for organizing photos or Tomboy, a Wiki-like desktop notes tool. All these tools were developed with Mono and had some success, but the critics were harsh, Mono at this time somewhat slow and the fear to use something that had to do with Microsoft, the company that has called Linux and the Free Software Movement as "cancer", was huge. 
