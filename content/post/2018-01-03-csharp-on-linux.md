@@ -8,7 +8,6 @@ tags:
 - C#
 - ".NET Core"
 - Programming
-draft: true
 
 ---
 C# on Linux exists for a long time, but many users are unaware of this. The languages that are used most today on Linux are still C, C++ and various scripting languages Python, Perl and Ruby. Miguel de Icaza, the founder of the _Gnome Desktop_, was the one who aimed to develop an open, crossplatform C# compiler and Common Language Runtime for Linux, Unix and macOS in 2001. The results suceeded in 2004 in the _Mono_ Project[^1](http://www.mono-project.com), which is an open implementation of ECMA-334 Standard[^2](https://www.ecma-international.org/publications/standards/Ecma-334.htm) which defines the C# language itself and the ECMA-335 Standard[^3](https://www.ecma-international.org/publications/standards/Ecma-335.htm) which defines a Common Language Infrastructure for different languages, such as C#.<!--more-->
