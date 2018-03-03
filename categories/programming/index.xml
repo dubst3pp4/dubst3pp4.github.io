@@ -6,10 +6,19 @@
     <description>Recent content in Programming on dubst3pp4</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 21:23:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 20:46:56 +0100</lastBuildDate>
     
 	<atom:link href="https://dubst3pp4.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C# and .NET on Linux</title>
+      <link>https://dubst3pp4.github.io/post/2018-01-03-csharp-on-linux/</link>
+      <pubDate>Thu, 01 Mar 2018 20:46:56 +0100</pubDate>
+      
+      <guid>https://dubst3pp4.github.io/post/2018-01-03-csharp-on-linux/</guid>
+      <description>&lt;p&gt;C# on Linux exists for a long time, but many users are unaware of this. The languages that are used most today on Linux are still C, C++ and various scripting languages Python, Perl and Ruby. Miguel de Icaza, the founder of the &lt;em&gt;Gnome Desktop&lt;/em&gt;, was the one who aimed to develop an open, crossplatform C# compiler and Common Language Runtime for Linux, Unix and macOS in 2001. The results suceeded in 2004 in the &lt;em&gt;Mono&lt;/em&gt; Project&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:http-www-mono-project-com&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:http-www-mono-project-com&#34;&gt;0&lt;/a&gt;&lt;/sup&gt;, which is an open implementation of ECMA-334 Standard&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:https-www-ecma-international-org-publications-standards-Ecma-334-htm&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:https-www-ecma-international-org-publications-standards-Ecma-334-htm&#34;&gt;0&lt;/a&gt;&lt;/sup&gt; which defines the C# language itself and the ECMA-335 Standard&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:https-www-ecma-international-org-publications-standards-Ecma-335-htm&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:https-www-ecma-international-org-publications-standards-Ecma-335-htm&#34;&gt;0&lt;/a&gt;&lt;/sup&gt; which defines a Common Language Infrastructure for different languages, such as C#.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Why I use Object Pascal</title>
