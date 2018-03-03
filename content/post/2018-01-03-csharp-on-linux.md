@@ -1,6 +1,13 @@
 ---
 title: C# and .NET on Linux
 date: 2018-03-01 20:46:56 +0100
+categories:
+- Programming
+tags:
+- Linux
+- C#
+- ".NET Core"
+- Programming
 draft: true
 categories:
 - Programming
