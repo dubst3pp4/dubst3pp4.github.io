@@ -9,13 +9,6 @@ tags:
 - ".NET Core"
 - Programming
 draft: true
-categories:
-- Programming
-tags:
-- Linux
-- C#
-- .NET Core
-- Programming
 
 ---
 C# on Linux exists for a long time, but many users are unaware of this. The languages that are used most today on Linux are still C, C++ and various scripting languages Python, Perl and Ruby. Miguel de Icaza, the founder of the _Gnome Desktop_, was the one who aimed to develop an open, crossplatform C# compiler and Common Language Runtime for Linux, Unix and macOS in 2001. The results suceeded in 2004 in the _Mono_ Project[^1](http://www.mono-project.com), which is an open implementation of ECMA-334 Standard[^2](https://www.ecma-international.org/publications/standards/Ecma-334.htm) which defines the C# language itself and the ECMA-335 Standard[^3](https://www.ecma-international.org/publications/standards/Ecma-335.htm) which defines a Common Language Infrastructure for different languages, such as C#.<!--more-->
@@ -35,3 +28,21 @@ In the same year Microsoft released its own open and crossplatform .NET implemen
 Of course this promise is discussed very controversal in the Open Source community. You don't have the full freedom to do with the software what you want as you would expect from a license such as the MIT license. But from my point of view, this is an similar situation as with Oracle and the Java language with its runtime. Even Google holds patents on parts of the Go programming language. At least each user must decide for his self if he can live with these restrictions. But as Microsoft is highly interested in attrating developers and, unlike 20 years ago, not the platform but the ecosystem is the most important value of an IT company, it is very unlikely that Microsoft will drop its Open Source initiatives or will chase developers by starting lawsuits.
 
 Do you plan to use C# / .NET Core with Linux?
+
+[^1]: http://www.mono-project.com
+[^2]: https://www.ecma-international.org/publications/standards/Ecma-334.htm
+[^3]: https://www.ecma-international.org/publications/standards/Ecma-335.htm
+[^4]: https://www.theregister.co.uk/2001/06/02/ballmer_linux_is_a_cancer
+[^5]: https://www.linuxfoundation.org/press-release/microsoft-fortifies-commitment-to-open-source-becomes-linux-foundation-platinum-member
+[^6]: https://opensource.org/node/901
+[^7]: https://unity3d.com
+[^8]: http://www.monodevelop.com
+[^9]: https://www.visualstudio.com/vs/visual-studio-mac
+[^10]: https://github.com/mono/mono/blob/master/LICENSE
+[^11]: https://github.com/mono/mono/blob/master/PATENTS.TXT
+[^12]: https://www.xamarin.com
+[^13]: https://blogs.microsoft.com/blog/2016/02/24/microsoft-to-acquire-xamarin-and-empower-more-developers-to-build-apps-on-any-device
+[^14]: https://dotnet.github.io
+[^15]: https://github.com/dotnet/core/blob/master/LICENSE.TXT
+[^16]: https://github.com/dotnet/coreclr/blob/master/PATENTS.TXT
+
