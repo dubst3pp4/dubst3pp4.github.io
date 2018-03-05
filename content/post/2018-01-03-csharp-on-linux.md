@@ -5,7 +5,7 @@ categories:
 - Programming
 tags:
 - Linux
-- C#
+- "C#"
 - ".NET Core"
 - Programming
 
