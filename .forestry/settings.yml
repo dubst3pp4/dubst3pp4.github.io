@@ -1,10 +1,22 @@
 ---
-upload_path: "/static/uploads/:year:/:month:"
-frontmatter_file_url_template: "/uploads/:year:/:month:"
-body_file_url_template: "/uploads/:year:/:month:"
 new_page_extension: md
 auto_deploy: true
-admin_path: 
+admin_path: ''
 webhook_url: 
-sections: 
-version: 0.31.1
+sections:
+- type: directory
+  path: content/post
+  label: Post
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: "/uploads"
+use_front_matter_path: false
+file_template: ":year:/:month:/:filename:"
+version: '0.49'

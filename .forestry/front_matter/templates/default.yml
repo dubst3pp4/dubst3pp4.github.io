@@ -1,8 +1,7 @@
 ---
-pages:
-- imprint.md
-- post/test.md
+label: default
 hide_body: false
+is_partial: false
 fields:
 - type: text
   label: Title
@@ -17,3 +16,6 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+pages:
+- content/imprint.md
+- content/post/test.md
